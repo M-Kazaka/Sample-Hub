@@ -1,5 +1,5 @@
 volumes:
-    postgreas-data:
+    postgres-data:
         external: true
 services:
     postgres:

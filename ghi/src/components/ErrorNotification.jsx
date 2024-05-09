@@ -1,4 +1,7 @@
 //@ts-check
+
+import React from "react"
+
 /**
  * @param {{error?: string}} props
  * @returns {React.ReactNode}

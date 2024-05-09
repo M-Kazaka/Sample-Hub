@@ -1,4 +1,7 @@
 //@ts-check
+
+import React from "react"
+
 /**
  * @typedef {{module: number, week: number, day: number, min: number, hour: number}} LaunchInfo
  *
