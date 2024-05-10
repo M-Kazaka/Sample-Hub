@@ -20,6 +20,9 @@ import './App.css'
   /*Splash Page */
 }
 import SplashPage from './SplashPage'
+import FlexOne from './FlexOne'
+import FlexTwo from './Flex Two'
+import FlexThree from './FlexThree'
 
 
 function App() {
@@ -33,6 +36,9 @@ function App() {
           <ErrorNotification error={error} />
           <Routes>
               <Route path='/' element={<SplashPage />} />
+              <Route path='1' element={<FlexOne />} />
+              <Route path='2' element={<FlexTwo />} />
+              <Route path='3' element={<FlexThree />} />
           </Routes>
         </div>
       </BrowserRouter>
